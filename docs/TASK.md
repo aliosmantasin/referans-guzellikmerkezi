@@ -1,66 +1,90 @@
 # Beatty Center - Geliştirme Görevleri
 
-## Sprint 1: Proje Kurulumu ve Temel Yapı
+## Sprint 1: Proje Kurulumu ve Temel Yapı ✓
 ### Öncelik: Yüksek
-- [ ] Next.js 14 projesi oluşturma
-- [ ] TypeScript konfigürasyonu
-- [ ] Tailwind CSS kurulumu
-- [ ] shadcn/ui entegrasyonu
-- [ ] Klasör yapısının oluşturulması
-- [ ] Git repository kurulumu
-- [ ] ESLint ve Prettier konfigürasyonu
-- [ ] Dark/Light mode altyapısının kurulması
+- [x] Next.js 14 projesi oluşturma
+- [x] TypeScript konfigürasyonu
+- [x] Tailwind CSS kurulumu
+- [x] shadcn/ui entegrasyonu
+- [x] Klasör yapısının oluşturulması
+- [x] Git repository kurulumu
+- [x] ESLint ve Prettier konfigürasyonu
+- [x] Dark/Light mode altyapısının kurulması
 
-## Sprint 2: Temel Komponentler ve Layout
+## Sprint 2: Layout ve Navigasyon Yapısı ✓
 ### Öncelik: Yüksek
-- [ ] Header komponenti
-- [ ] Footer komponenti
-- [ ] Navigation menüsü
-- [ ] Layout wrapper
-- [ ] SEO komponenti
-- [ ] Loading states
-- [ ] Error boundaries
-- [ ] Tema değiştirici
+- [x] Header komponenti
+  * Logo ve marka kimliği
+  * Responsive navigasyon menüsü
+  * Tema değiştirici entegrasyonu
+  * Call-to-action butonu
+  * Mobil görünüm optimizasyonu
 
-## Sprint 3: Ana Sayfa Geliştirmesi
+- [x] Mobil Menü (Sheet Component)
+  * shadcn/ui Sheet komponenti kurulumu
+  * Sağdan açılır menü tasarımı
+  * Animasyon ve geçiş efektleri
+  * Backdrop ve blur efektleri
+  * Otomatik kapanma özelliği
+  * State yönetimi
+
+- [x] Footer komponenti
+  * Kurumsal bilgiler bölümü
+  * Hızlı erişim linkleri
+  * İletişim bilgileri
+  * Sosyal medya bağlantıları
+  * Responsive tasarım
+
+- [x] Layout wrapper
+- [x] SEO komponenti
+- [x] Loading states
+- [x] Error boundaries
+
+## Sprint 3: Ana Sayfa Geliştirmesi ✓
 ### Öncelik: Yüksek
-- [ ] Hero section
-- [ ] Öne çıkan hizmetler grid'i
-- [ ] Müşteri yorumları carousel'i
-- [ ] İstatistikler bölümü
-- [ ] CTA (Call to Action) bölümü
-- [ ] Responsive tasarım uyarlamaları
-- [ ] SEO optimizasyonu
+- [x] Hero section (Arka plan görseli ve responsive tasarım eklendi)
+- [x] Öne çıkan hizmetler grid'i (6 hizmet ve responsive grid yapısı)
+- [x] Müşteri yorumları carousel'i (shadcn/ui carousel ile)
+- [x] İstatistikler bölümü (Animasyonlu sayaçlar)
+- [x] CTA (Call to Action) bölümü (Modern tasarım ve özellikler)
+- [x] Responsive tasarım uyarlamaları (Tüm komponentler için)
+- [x] SEO optimizasyonu
+  * Meta etiketleri güncellendi
+  * Structured Data (JSON-LD) eklendi
+  * OpenGraph ve Twitter Cards
+  * Alternatif dil desteği
+  * Google site doğrulama
+  * Robots direktifleri
 
 ## Sprint 4: Hakkımızda Sayfası
 ### Öncelik: Orta
-- [ ] Merkez tanıtım bölümü
-- [ ] Ekip üyeleri grid'i
-- [ ] Misyon ve vizyon bölümü
-- [ ] Galeri komponenti
-- [ ] Animasyon entegrasyonları
-- [ ] Responsive tasarım uyarlamaları
-- [ ] SEO optimizasyonu
+- [x] Merkez tanıtım bölümü
+- [x] Ekip üyeleri grid'i
+- [x] Misyon ve vizyon bölümü
+- [x] Galeri komponenti
+- [x] Animasyon entegrasyonları
+- [x] Responsive tasarım uyarlamaları
+- [x] SEO optimizasyonu
 
 ## Sprint 5: Hizmetler Sayfası
 ### Öncelik: Yüksek
-- [ ] Hizmet kategorileri
-- [ ] Hizmet listesi
-- [ ] Hizmet detay sayfası
-- [ ] Filtreleme sistemi
-- [ ] Fiyat tablosu
-- [ ] Rezervasyon formu
-- [ ] SEO optimizasyonu
+- [x] Hizmet kategorileri
+- [x] Hizmet listesi
+- [x] Hizmet detay sayfası
+- [x] Filtreleme sistemi
+- [x] Fiyat tablosu
+- [x] Rezervasyon formu
+- [x] SEO optimizasyonu
 
 ## Sprint 6: İletişim Sayfası
 ### Öncelik: Orta
-- [ ] İletişim formu
-- [ ] Google Maps entegrasyonu
-- [ ] İletişim bilgileri bölümü
-- [ ] Form validasyonu
+- [x] İletişim formu
+- [x] Google Maps entegrasyonu
+- [x] İletişim bilgileri bölümü
+- [x] Form validasyonu
 - [ ] Otomatik email yanıtlama
-- [ ] WhatsApp entegrasyonu
-- [ ] SEO optimizasyonu
+- [x] WhatsApp entegrasyonu
+- [x] SEO optimizasyonu
 
 ## Sprint 7: Blog Sayfası
 ### Öncelik: Düşük
@@ -108,3 +132,5 @@
 - Öncelikler değişebilir, sprint içerikleri güncellenebilir
 - Her sprint sonunda demo yapılacaktır
 - Kullanıcı geri bildirimleri değerlendirilecektir 
+- Layout ve navigasyon yapısı, projenin temelini oluşturur ve ilk sprintlerde tamamlanmalıdır
+- Mobil menü, modern web uygulamalarının standart bir parçasıdır ve kullanıcı deneyimi için kritiktir 
