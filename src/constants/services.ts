@@ -5,6 +5,8 @@ export interface Service {
   description: string;
   fullDescription?: string;
   image: string;
+  videoUrl?: string;
+  videoPosterUrl?: string;
   duration: string;
   price: string;
   category: string;
@@ -24,19 +26,19 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     id: 'cilt-bakimi',
     name: 'Cilt Bakımı',
     description: 'Profesyonel cilt bakımı ve tedavi hizmetleri',
-    image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9'
+    image: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/1gorsel.webp'
   },
   {
     id: 'lazer-epilasyon',
     name: 'Lazer Epilasyon',
     description: 'Son teknoloji lazer epilasyon hizmetleri',
-    image: 'https://images.unsplash.com/photo-1598970434795-0c54fe7c0648'
+    image: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/lazer-epilasyon.webp'
   },
   {
     id: 'medikal-estetik',
     name: 'Medikal Estetik',
     description: 'Uzman doktorlarımızla medikal estetik uygulamaları',
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881'
+    image: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/1gorsel.webp'
   }
 ];
 
@@ -72,11 +74,13 @@ export const SERVICES: Record<string, Service> = {
     title: 'Lazer Epilasyon',
     description: 'Son teknoloji cihazlarla kalıcı tüy alma işlemi',
     fullDescription: 'Son teknoloji lazer cihazlarımızla, güvenli ve etkili bir şekilde kalıcı tüy alma işlemi uyguluyoruz. Cilt tipinize uygun lazer teknolojisi ile maksimum sonuç almanızı sağlıyoruz.',
-    image: 'https://images.unsplash.com/photo-1598970434795-0c54fe7c0648',
+    image: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/lazer-epilasyon.webp',
+    videoUrl: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/lazerEpilasyonVideo.mp4',
+    videoPosterUrl: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/KapakEpilasyonVideo.webp',
     duration: '30-60 dk',
     price: '500 ₺\'den başlayan',
     category: 'lazer-epilasyon',
-    benefits: [
+    benefits: [ 
       'Kalıcı tüy azalması',
       'Hızlı ve etkili sonuç',
       'Tüm cilt tiplerine uygun',

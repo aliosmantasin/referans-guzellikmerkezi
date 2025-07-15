@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative h-screen min-h-[600px] flex items-center justify-center">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1633681926035-ec1ac984418a?q=80&w=2070"
+          src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/referanssites-folder/referansBeautyCenter/beautycenter.webp"
           alt="Beatty Center"
           fill
           priority

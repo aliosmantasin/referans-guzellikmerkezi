@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { SERVICES, SERVICE_CATEGORIES } from '../mock-data';
-import { ServiceCategory } from '@/types/services';
+import { SERVICES, SERVICE_CATEGORIES, ServiceCategory } from '@/constants/services';
 import { Breadcrumb } from './components/Breadcrumb';
 import { ServiceHero } from './components/ServiceHero';
 import { ProcessSection } from './components/ProcessSection';
 import { ServiceCTA } from './components/ServiceCTA';
+import { VideoSection } from './components/VideoSection';
 
 interface Props {
   params: {
@@ -48,6 +48,9 @@ export default function ServiceDetailPage({ params }: Props) {
       <div className="container mx-auto px-4">
         <Breadcrumb category={category} />
         <ServiceHero service={service} category={category} />
+        {service.videoUrl && service.videoPosterUrl && (
+          <VideoSection videoUrl={service.videoUrl} posterUrl={service.videoPosterUrl} />
+        )}
         <ProcessSection process={service.process} />
         <ServiceCTA />
       </div>

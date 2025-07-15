@@ -19,7 +19,7 @@ export function FeaturedServices() {
           {FEATURED_SERVICES.map((service: Service) => (
             <Link
               key={service.id}
-              href={`/hizmetler#${service.id}`}
+              href={`/hizmetler/${service.slug}`}
               className="group"
             >
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
